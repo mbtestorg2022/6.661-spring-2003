@@ -6,34 +6,338 @@ uid: ceaa1d22-faa9-c139-6e88-8b778fd50b1a
 
 This section provides links to chapters of Prof. David Staelin's draft textbook. The readings column refers to the relevant chapters and sections for each lecture. [Supplementary readings](#sup) are also provided below.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Introduction and Review | 1 ([PDF]({{< baseurl >}}/resources/ch1new)) |
-| 2 | Review, Thermal Noise | 2.1.1-2 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 3 | 3-D Thermal Noise, Shot N | 2.1.3-4, 2.2.1 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 4 | Receiver Power Sensitivity | 2.2.2-3 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 5 | Spectral Measurements, G, F | 2.2.4-6, 2.3.1 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 6 | Receiver Noise, Multiports | 2.3.2-5 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 7 | Mixers, Noise Reduction, PTs | 2.3.6-7, 2.4.1 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 8 | Optical Detection | 2.4.2-5 ([PDF]({{< baseurl >}}/resources/ch2new)) |
-| 9 | Bolometers, Antenna Basics | 2.4.6 ([PDF]({{< baseurl >}}/resources/ch2new)), 3.1 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 10 | Basic Wire Antennas, Arrays | 3.2 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 11 | Wire Antennas | 3.2 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 12 | Aperture Antennas | 3.3 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 13 | Polarization, Phase Errors | 3.3 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 14 | Binary Communications | 4.1-4 ([PDF]({{< baseurl >}}/resources/ch4new)) |
-| &nbsp; | Quiz 1 (Closed Book) | &nbsp; |
-| 15 | Channel Coding | 4.5 ([PDF]({{< baseurl >}}/resources/ch4new)) |
-| 16 | Source Coding, Analog Basics | 4.6-7 ([PDF]({{< baseurl >}}/resources/ch4new)) |
-| 17 | Analog Modulation | 4.7-8 ([PDF]({{< baseurl >}}/resources/ch4new)) |
-| 18 | Aperture Synthesis | 5.1 ([PDF]({{< baseurl >}}/resources/ch5new)) |
-| 19 | Interferometry | 5.2 ([PDF]({{< baseurl >}}/resources/ch5new)) |
-| 20 | Basic Radar, Ambiguity | 5.3 ([PDF]({{< baseurl >}}/resources/ch5new)) |
-| 21 | Synth. Aperture Radar (SAR) | 5.4 ([PDF]({{< baseurl >}}/resources/ch5new)), 6.1.1-2 ([PDF]({{< baseurl >}}/resources/ch6new)) |
-| 22 | Wave Propagation | 3.4 ([PDF]({{< baseurl >}}/resources/ch3new)) |
-| 23 | Linear, Non-Linear Estimation | 6.1.3-5 ([PDF]({{< baseurl >}}/resources/ch6new)) |
-| 24 | Non-Linear Estimation  {{< br >}}Remote Sensing  {{< br >}}Course Summary | 6.2 ([PDF]({{< baseurl >}}/resources/ch6new)) |
-| &nbsp; | Quiz #2 (Closed Book) |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction and Review
+{{< tdclose >}}
+{{< tdopen >}}
+1 ([PDF]({{< baseurl >}}/resources/ch1new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Review, Thermal Noise
+{{< tdclose >}}
+{{< tdopen >}}
+2.1.1-2 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+3-D Thermal Noise, Shot N
+{{< tdclose >}}
+{{< tdopen >}}
+2.1.3-4, 2.2.1 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Receiver Power Sensitivity
+{{< tdclose >}}
+{{< tdopen >}}
+2.2.2-3 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral Measurements, G, F
+{{< tdclose >}}
+{{< tdopen >}}
+2.2.4-6, 2.3.1 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Receiver Noise, Multiports
+{{< tdclose >}}
+{{< tdopen >}}
+2.3.2-5 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Mixers, Noise Reduction, PTs
+{{< tdclose >}}
+{{< tdopen >}}
+2.3.6-7, 2.4.1 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Optical Detection
+{{< tdclose >}}
+{{< tdopen >}}
+2.4.2-5 ([PDF]({{< baseurl >}}/resources/ch2new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Bolometers, Antenna Basics
+{{< tdclose >}}
+{{< tdopen >}}
+2.4.6 ([PDF]({{< baseurl >}}/resources/ch2new)), 3.1 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Basic Wire Antennas, Arrays
+{{< tdclose >}}
+{{< tdopen >}}
+3.2 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Wire Antennas
+{{< tdclose >}}
+{{< tdopen >}}
+3.2 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Aperture Antennas
+{{< tdclose >}}
+{{< tdopen >}}
+3.3 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Polarization, Phase Errors
+{{< tdclose >}}
+{{< tdopen >}}
+3.3 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Binary Communications
+{{< tdclose >}}
+{{< tdopen >}}
+4.1-4 ([PDF]({{< baseurl >}}/resources/ch4new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 (Closed Book)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Channel Coding
+{{< tdclose >}}
+{{< tdopen >}}
+4.5 ([PDF]({{< baseurl >}}/resources/ch4new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Source Coding, Analog Basics
+{{< tdclose >}}
+{{< tdopen >}}
+4.6-7 ([PDF]({{< baseurl >}}/resources/ch4new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Analog Modulation
+{{< tdclose >}}
+{{< tdopen >}}
+4.7-8 ([PDF]({{< baseurl >}}/resources/ch4new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Aperture Synthesis
+{{< tdclose >}}
+{{< tdopen >}}
+5.1 ([PDF]({{< baseurl >}}/resources/ch5new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Interferometry
+{{< tdclose >}}
+{{< tdopen >}}
+5.2 ([PDF]({{< baseurl >}}/resources/ch5new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Basic Radar, Ambiguity
+{{< tdclose >}}
+{{< tdopen >}}
+5.3 ([PDF]({{< baseurl >}}/resources/ch5new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Synth. Aperture Radar (SAR)
+{{< tdclose >}}
+{{< tdopen >}}
+5.4 ([PDF]({{< baseurl >}}/resources/ch5new)), 6.1.1-2 ([PDF]({{< baseurl >}}/resources/ch6new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Wave Propagation
+{{< tdclose >}}
+{{< tdopen >}}
+3.4 ([PDF]({{< baseurl >}}/resources/ch3new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Linear, Non-Linear Estimation
+{{< tdclose >}}
+{{< tdopen >}}
+6.1.3-5 ([PDF]({{< baseurl >}}/resources/ch6new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Non-Linear Estimation  
+Remote Sensing  
+Course Summary
+{{< tdclose >}}
+{{< tdopen >}}
+6.2 ([PDF]({{< baseurl >}}/resources/ch6new))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz #2 (Closed Book)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "sup" >}}Supplementary Readings{{< /anchor >}}
 ---------------------------------------------------------
